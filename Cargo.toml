@@ -1,0 +1,19 @@
+[workspace]
+members = [
+	".",
+	"codegen",
+]
+
+[package]
+name = "gusket"
+version = "0.1.0"
+authors = ["SOFe <sofe2038@gmail.com>"]
+edition = "2021"
+license = "Apache-2.0"
+repository = "https://github.com/SOF3/gusket"
+homepage = "https://github.com/SOF3/gusket"
+readme = "README.md"
+description = "Yet another getter/setter derive macro"
+
+[dependencies]
+gusket-codegen = {version = "0.1.0", path = "./codegen"}
